@@ -1,3 +1,4 @@
+import { homework } from "./homework/homework";
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */ `
@@ -5,3 +6,5 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */ `
     <h1>Homework 03</h1>
   </div>
 `;
+
+homework();
